@@ -1,693 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Rewrite by DeadManWalking (DeadManWalkingTO-GitHub) -->
+
 <CustomSettingNames>
   <ShowCustomizedSettingNamesOnly>false</ShowCustomizedSettingNamesOnly>
   <Settings>
-    <CustomSetting>
-      <UserfriendlyName>ASYNC10_ENABLE</UserfriendlyName>
-      <HexSettingID>0x0005F511</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>APP - Enable dual core optimizations unless the application requested to disable them</UserfriendlyName>
-          <HexValue>0x37605835</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>OFF - Disable dual core optimizations</UserfriendlyName>
-          <HexValue>0x53850673</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ON - Enable dual core optimizations</UserfriendlyName>
-          <HexValue>0x42563729</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>ASYNC10_PRESENT_MODE</UserfriendlyName>
-      <HexSettingID>0x0005F512</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Default - DX10 present will be in default mode</UserfriendlyName>
-          <HexValue>0x96184013</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Sync - DX10 present will be sync call</UserfriendlyName>
-          <HexValue>0x53855200</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Async - DX10 present will be async call</UserfriendlyName>
-          <HexValue>0x89624578</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>LARGE_VA</UserfriendlyName>
-      <HexSettingID>0x0007FBB6</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable - Disable large VA</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Enable_LargeVA - Enable large VA on all GPUs</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Enable_LargeVA_Quadro - Enable large VA on Quadro GPUs</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Enable_LargeVA_Quadro_Tesla - Enable large VA on Quadro Tesla GPUs</UserfriendlyName>
-          <HexValue>0x00000003</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>FORCEENABLEDCCAP</UserfriendlyName>
-      <HexSettingID>0x001208CB</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On - Force enable deferred context cap</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>STAGING_CACHE_SIZE</UserfriendlyName>
-      <HexSettingID>0x0013FEC2</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Min</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Default</UserfriendlyName>
-          <HexValue>0x00400000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Max</UserfriendlyName>
-          <HexValue>0x01000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_BM_DEFER_DESTROY_FLAGS</UserfriendlyName>
-      <HexSettingID>0x00159046</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Default</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable Global Renaming</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Allow Global Renaming Pitch Only</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable Async Frees</UserfriendlyName>
-          <HexValue>0x00000004</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable Alloc Recycling</UserfriendlyName>
-          <HexValue>0x00000010</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>ASYNC9_PRESENT_MODE</UserfriendlyName>
-      <HexSettingID>0x0015F512</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Sync - All DX9 presents will be synchronous</UserfriendlyName>
-          <HexValue>0x53855200</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Async - All DX9 presents will be asynchronous if AllowFlipBatching is set</UserfriendlyName>
-          <HexValue>0x96184013</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Async full screen - Only full screen DX9 presents will be asynchronous if AllowFlipBatching is set</UserfriendlyName>
-          <HexValue>0x57236402</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Force Async - All DX9 presents will be asynchronous</UserfriendlyName>
-          <HexValue>0x89624578</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Force Async full screen - Only full screen DX9 presents will be asynchronous</UserfriendlyName>
-          <HexValue>0x32469276</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>D3D_STEREO_BLACK_LIST</UserfriendlyName>
-      <HexSettingID>0x00161903</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On - Prohibit stereo shim in DX apps</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>DISABLE_Z16</UserfriendlyName>
-      <HexSettingID>0x0017FD6D</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On - Replaces all Z16 requests with Z24X8</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>3DSMax Shim Layer Control</UserfriendlyName>
-      <HexSettingID>0x002C74F1</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable - Disable the 3DSMax shim layer</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Enable - Enable the 3DSMax shim layer on Quadro and GeForce SMB GPUs</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Enable GEFORCE - Enable the 3DSMax shim layer on GeForce and Quadro (DEVELOP/DEBUG only)</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_ASYNC_SHADER_SCHEDULER_FLAGS</UserfriendlyName>
-      <HexSettingID>0x00313536</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>IGNORE_LOAD_BALANCING - debug: Ignore gpu load, apply always</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>IGNORE_QUOTAS - debug: Ignore quotas</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>IGNORE_GARBAGE_COLLECT_THRESHOLD - debug: Ignore fill status and garbage collect every frame</UserfriendlyName>
-          <HexValue>0x00000004</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_GARBAGE_COLLECTION - debug: Disables garbage collection</UserfriendlyName>
-          <HexValue>0x00000008</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>COMPILE_IMMEDIATELY - debug: stall in the driver thread until the compile result arrives</UserfriendlyName>
-          <HexValue>0x00000100</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>LIMIT_SHADER_CREATION_TO_ONE_THREAD - Limit number of spawned threads to one (rather than the number of cores) for async creations</UserfriendlyName>
-          <HexValue>0x00000200</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>LIMIT_OPTIMIZED_SHADER_RECOMPILE_TO_ONE_THREAD - Limit number of spawned threads to one (rather than the number of cores) for optimized shader recompiles</UserfriendlyName>
-          <HexValue>0x00000400</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_MULTI_APP_THREAD_HEURISTIC - Disable heuristic for detecting multiple app threads compiling shaders</UserfriendlyName>
-          <HexValue>0x00000800</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_OPTIMIZED_SHADER_RECOMPILE - Recompile multiple optimized versions of shaders</UserfriendlyName>
-          <HexValue>0x00001000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_SHADER_CREATION - Compile multiple shaders in parallel at creation</UserfriendlyName>
-          <HexValue>0x00002000</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>ASYNC10_NVAPI_MODE</UserfriendlyName>
-      <HexSettingID>0x005F5A32</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>ALLOW_NONBLOCKING_NVAPI - Generally allow some nvapi calls to not block async device</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ALLOW_NOBLOCKING_SLISTATE - Allow specific non-blocking optimizations for GetCurrentSliState NVAPI</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ALLOW_ALL - Allow all optimizations</UserfriendlyName>
-          <HexValue>0x00000003</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>ASYNC10_OOO_QUERY_LIMIT</UserfriendlyName>
-      <HexSettingID>0x005F5A33</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Default - How many out of order query getData calls are allowed before stalling the Async Device</UserfriendlyName>
-          <HexValue>0x0000000A</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>D3D9_CONTROL_BITS</UserfriendlyName>
-      <HexSettingID>0x0067345E</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 24 for rRegBankSize == 128</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 30 for rRegBankSize == 128</UserfriendlyName>
-          <HexValue>0x00000003</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 40 for rRegBankSize == 128</UserfriendlyName>
-          <HexValue>0x00000005</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 60 for rRegBankSize == 128</UserfriendlyName>
-          <HexValue>0x00000007</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 120 for rRegBankSize == 128</UserfriendlyName>
-          <HexValue>0x00000009</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 128 for rRegBankSize == 128</UserfriendlyName>
-          <HexValue>0x0000000F</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 24 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000010</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 26 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000020</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 30 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000030</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 34 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000040</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 40 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000050</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 48 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000060</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 60 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000070</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 80 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000080</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 120 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x00000090</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Set maxRRegsAllowed = 256 for rRegBankSize == 256</UserfriendlyName>
-          <HexValue>0x000000F0</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable ticks</UserfriendlyName>
-          <HexValue>0x00000100</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable early-Z ticks</UserfriendlyName>
-          <HexValue>0x00000200</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Force 1-bit compression on depth buffers</UserfriendlyName>
-          <HexValue>0x00001000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable dynamic VB promotion</UserfriendlyName>
-          <HexValue>0x00002000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disallow forced vsync (includes adaptive vsync)</UserfriendlyName>
-          <HexValue>0x00004000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disallow the use of the CPU Visible segement</UserfriendlyName>
-          <HexValue>0x00008000</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_SURFACE_PLACEMENT_HIGHEST_PRIORITY</UserfriendlyName>
-      <HexSettingID>0x006BDD49</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>RTs/ZBs use high priority (default)</UserfriendlyName>
-          <HexValue>0x187F7082</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>RTs/ZBs use maximum priority</UserfriendlyName>
-          <HexValue>0x83B7BC1A</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>RTs/ZBs use maximum priority on mixed-bus GPUs (192-bit 2 GB, etc.)</UserfriendlyName>
-          <HexValue>0xFC17F610</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>KEPLER_CLEAR_SM_HALFCTL_CTRL_SCTL_CYA_6</UserfriendlyName>
-      <HexSettingID>0x007033AB</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On - Clear</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>FERMI_GF110_VOLTAGE_DROP_WAR</UserfriendlyName>
-      <HexSettingID>0x00837AAF</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>KEPLER_APPLY_ALD_WAR</UserfriendlyName>
-      <HexSettingID>0x00846411</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>COLORCOMPRESSENABLE</UserfriendlyName>
-      <HexSettingID>0x0085F725</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x99388100</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On</UserfriendlyName>
-          <HexValue>0x25558997</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>READ_ONLY_DSV_EARLYZ_HAZARD_WAR_ENABLE</UserfriendlyName>
-      <HexSettingID>0x008F7215</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On - Track read-only DSVs as last having been bound to PS to catch WAR hazards between early-z and PS</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_SURFACE_PLACEMENT_ALLOW</UserfriendlyName>
-      <HexSettingID>0x0090F680</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>VB_FORCE_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>VB_FORCE_VIDMEM</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>VB_IB_FORCE_CPUVISIBLE</UserfriendlyName>
-          <HexValue>0x00000004</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>VB_IB_FORCE_LOCKABLE_CPUVISIBLE</UserfriendlyName>
-          <HexValue>0x00000008</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>VB_STATIC_PREFERS_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00000010</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>VB_STATIC_PREFERS_VIDMEM</UserfriendlyName>
-          <HexValue>0x00000020</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>VB_WRITEONLY_PREFERS_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00000040</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>VB_WRITEONLY_PREFERS_VIDMEM</UserfriendlyName>
-          <HexValue>0x00000080</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>IB_FORCE_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00000100</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>IB_FORCE_VIDMEM</UserfriendlyName>
-          <HexValue>0x00000200</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>IB_PREFERS_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00000400</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>IB_PREFERS_VIDMEM</UserfriendlyName>
-          <HexValue>0x00000800</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>TX_FORCE_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00001000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>TX_FORCE_VIDMEM</UserfriendlyName>
-          <HexValue>0x00002000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>TX_PREFERS_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00004000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>TX_PREFERS_VIDMEM</UserfriendlyName>
-          <HexValue>0x00008000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>RT_FORCE_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00010000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>RT_FORCE_VIDMEM</UserfriendlyName>
-          <HexValue>0x00020000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>RT_PREFERS_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00040000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>RT_PREFERS_VIDMEM</UserfriendlyName>
-          <HexValue>0x00080000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Z_FORCE_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00100000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Z_FORCE_VIDMEM</UserfriendlyName>
-          <HexValue>0x00200000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Z_PREFERS_HOSTMEM</UserfriendlyName>
-          <HexValue>0x00400000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Z_PREFERS_VIDMEM</UserfriendlyName>
-          <HexValue>0x00800000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Z_PREFERS_BOTH</UserfriendlyName>
-          <HexValue>0x00C00000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>PB_FORCE_HOSTMEM</UserfriendlyName>
-          <HexValue>0x01000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>PB_FORCE_VIDMEM</UserfriendlyName>
-          <HexValue>0x02000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SP_FORCE_INCLUDE_Z</UserfriendlyName>
-          <HexValue>0x04000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SP_FORCE_ALL_HEAPS</UserfriendlyName>
-          <HexValue>0x08000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SP_USE_NONE</UserfriendlyName>
-          <HexValue>0x10000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SP_USE_2V</UserfriendlyName>
-          <HexValue>0x20000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SP_USE_2H</UserfriendlyName>
-          <HexValue>0x40000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SP_USE_4</UserfriendlyName>
-          <HexValue>0x80000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ALL_FORCE_HOSTMEM</UserfriendlyName>
-          <HexValue>0x01111111</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ALL_FORCE_VIDMEM</UserfriendlyName>
-          <HexValue>0x02222222</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>ASYNC9_ENABLE</UserfriendlyName>
-      <HexSettingID>0x0092F4DE</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>App - Enable AsyncDevice except in configs that do not work (some SLI, Optimus) or if the application requested to disable them</UserfriendlyName>
-          <HexValue>0x37605835</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>When safe - Enable AsyncDevice except in configs that do not work (some SLI, Optimus)</UserfriendlyName>
-          <HexValue>0x37605846</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Off - Disable AsyncDevice and MS dual core optimization</UserfriendlyName>
-          <HexValue>0x53850673</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On - Enable AsyncDevice ignoring safety or application requests</UserfriendlyName>
-          <HexValue>0x42563729</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On if Quadro - Enable AsyncDevice if a Quadro or GeForce SMB GPU is being used, otherwise disable AsyncDevice and MS dual core optimization</UserfriendlyName>
-          <HexValue>0x42563730</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Microsoft - Disable AsyncDevice but allow MS dual core optimization</UserfriendlyName>
-          <HexValue>0x75328097</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
+  
+<!-- Group 1 - Compatibility -->  
+
     <CustomSetting>
       <UserfriendlyName>SLI Broadcast (DX9)</UserfriendlyName>
       <HexSettingID>0x0095DEF9</HexSettingID>
@@ -753,6 +73,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>SLI Copy Engine</UserfriendlyName>
       <HexSettingID>0x009CFEC8</HexSettingID>
@@ -798,23 +119,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_VB_PROMOTION_FLAGS</UserfriendlyName>
-      <HexSettingID>0x009E7462</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_DYNAMIC_PROMOTION - Don't promote VBs that are locked even if drawn from extensively</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_STATIC_PROMOTION Don't promote VBs that are never even locked</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>SLI Specific Hacks (DX1x)</UserfriendlyName>
       <HexSettingID>0x00A06746</HexSettingID>
@@ -864,6 +169,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+
     <CustomSetting>
       <UserfriendlyName>SLI Specific Hacks (DX9)</UserfriendlyName>
       <HexSettingID>0x00A0674A</HexSettingID>
@@ -897,13 +203,14 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+
     <CustomSetting>
       <UserfriendlyName>SLI Broadcast (DX1x)</UserfriendlyName>
       <HexSettingID>0x00A0694B</HexSettingID>
       <Description />
       <GroupName>1 - Compatibility</GroupName>
       <SettingValues>
-		<CustomSettingValue>
+        <CustomSettingValue>
           <UserfriendlyName>Do not use broadcast at all</UserfriendlyName>
           <HexValue>0x00000000</HexValue>
         </CustomSettingValue>
@@ -938,317 +245,9 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>VALIDATE_PARAMS</UserfriendlyName>
-      <HexSettingID>0x00A9D3C5</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Nothing - Do not validate any input</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>COPYREGION - Validate input on CopyRegion functions</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>INTERPRET_NEGATIVE - Validate input considering negative input even if the parameter type is unsigned</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>VALIDATE_ALL - Validate all input</UserfriendlyName>
-          <HexValue>0x00000003</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>APP_COMPAT_SHIM</UserfriendlyName>
-      <HexSettingID>0x00B82343</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Disabled</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DX11_FORCE_DDI_CRITICAL_SECTION - Force a critical section on all non-reentrant DX11 DDI</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DX11_FORCE_DDI_CRITICAL_SECTION_FOR_STEREO - Force a critical section on all non-reentrant DX11 DDI if stereo shim is enabled</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Mask</UserfriendlyName>
-          <HexValue>0x00000003</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>SHADERMAXREGALLOWED</UserfriendlyName>
-      <HexSettingID>0x00BC6199</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Min</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Max - Specifies max register allowed when compiling/optimizing a shader</UserfriendlyName>
-          <HexValue>0x00000400</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>MAX_PENDING_CMD_BUFFERS</UserfriendlyName>
-      <HexSettingID>0x00C63A79</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off - Limit max number of pending command buffers (per context) in software queue. If key is set zero it will be ignored</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>1</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>2</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>SYSMEMCACHEDCOPYBEHAVIOR</UserfriendlyName>
-      <HexSettingID>0x00DB3853</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Disallow - Disable sysmem caching for textures</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ALLOW_FOR_TEXTURES_WITHOUT_SUBRESOURCES - Allow for textures without subresources only (default)</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ALLOW_FOR_TEXTURES_WITH_SUBRESOURCES - Allow for textures with mips</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>MCLINKINSTANCED_LIMIT</UserfriendlyName>
-      <HexSettingID>0x00DB3857</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Default - Threshold in megabytes for using of RT/ZB allocations as LinkInstanced (SLI DX9/10)</UserfriendlyName>
-          <HexValue>0x00000064</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>MCFORCEHOSTSTAGINGBUFFERSIZE</UserfriendlyName>
-      <HexSettingID>0x00DB3858</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Default - size of host staging buffer, mostly for early push</UserfriendlyName>
-          <HexValue>0x00040000</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_REDUCTION_LOAD_BALANCED</UserfriendlyName>
-      <HexSettingID>0x00DB834A</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On - Reduction tracker load balancing</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>BM_OFFER_RECLAIM (DX1x)</UserfriendlyName>
-      <HexSettingID>0x00DC68B0</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_OFFER_SMALL_BLOCKS - Disable offering of suballocated Blocks</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_INTERNAL_OFFER_RECLAIM - Disable internal Offer/Reclaim</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_ALL_OFFER_RECLAIM - Diable all Offer/Reclaim</UserfriendlyName>
-          <HexValue>0x00000004</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_DX10_SURFACE_PLACEMENT_HIGHEST_PRIORITY (DX1x)</UserfriendlyName>
-      <HexSettingID>0x00EA83C5</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>RTs/ZBs use high priority (default)</UserfriendlyName>
-          <HexValue>0x187F7082</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>RTs/ZBs use maximum priority</UserfriendlyName>
-          <HexValue>0x83B7BC1A</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>RTs/ZBs use maximum priority on mixed-bus GPUs (192-bit 2 GB, etc.)</UserfriendlyName>
-          <HexValue>0xFC17F610</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>WRITE_TO_HOST_STAGING_BUFFER_SIZE</UserfriendlyName>
-      <HexSettingID>0x00F63A49</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Default - Set size of write staging buffer. If key is set to zero it will be ignored</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>AVOID_HOST_REMAPPERS</UserfriendlyName>
-      <HexSettingID>0x00F63A50</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On - Try to avoid host remappers. If application is locking BL RT in vidmem, demote it to pitch so that lock won't require remapper.</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>SLIMOSAIC_CONTROL</UserfriendlyName>
-      <HexSettingID>0x00F713BC</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>ALLOW_ALL - Allow all performance strategies</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_TWOD - Disable TwoD engine local transfers optimization</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ENABLE_WINDOWED_AFR - Enable AFR support for windowed applications</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_CAN_VECTORIZE_TRACKER - Disable CanVectorizeTracker</UserfriendlyName>
-          <HexValue>0x00000004</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_CE_TRANSFER_2WAY - Disable CE transfer on 2 way systems</UserfriendlyName>
-          <HexValue>0x00000010</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_CE_TRANSFER_3WAY - Disable CE transfer on 3 way systems</UserfriendlyName>
-          <HexValue>0x00000020</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>DISABLE_CE_TRANSFER_4WAY - Disable CE transfer on 4 way systems</UserfriendlyName>
-          <HexValue>0x00000040</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>UNICAST_CE_TRANSFER_2WAY - Use unicast CE transfer on 2 way systems</UserfriendlyName>
-          <HexValue>0x00000100</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>UNICAST_CE_TRANSFER_3WAY - Use unicast CE transfer on 3 way systems</UserfriendlyName>
-          <HexValue>0x00000200</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>UNICAST_CE_TRANSFER_4WAY - Use unicast CE transfer on 4 way systems</UserfriendlyName>
-          <HexValue>0x00000400</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>FORCE_BAR1_WAR - Always request aliasing for DX9 primaries</UserfriendlyName>
-          <HexValue>0x80000000</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>FERMI_FORCE_1X_TEX</UserfriendlyName>
-      <HexSettingID>0x00F865E3</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Disabled - Allow 2X tex where available</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ENABLED_3D - Force 1X tex on 2x_TEX parts for 3D channels</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ENABLED_COMPUTE - Force 1X tex on 2x_TEX parts for COMPUTE channels</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>MAX_RENAMING_MEMORY</UserfriendlyName>
-      <HexSettingID>0x00FE8CC0</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Limit max amount of memory used for renaming on XP</UserfriendlyName>
-          <HexValue>0x08000000</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
+
+<!-- Group 2 - Sync and Refresh -->  
+
     <CustomSetting>
       <UserfriendlyName>Vertical Sync Indicator</UserfriendlyName>
       <HexSettingID>0x00280880</HexSettingID>
@@ -1282,13 +281,16 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+
+<!-- Group 3 - Antialiasing -->
+
     <CustomSetting>
-      <UserfriendlyName>Antialiasing - Combined (Mode + Setting)</UserfriendlyName> 
+      <UserfriendlyName>Antialiasing - Combined (Mode + Setting)</UserfriendlyName> 
       <HexSettingID>0x100B8EDE</HexSettingID>
       <Description />
       <GroupName>3 - Antialiasing</GroupName>
       <SettingValues>
-		<CustomSettingValue>
+        <CustomSettingValue>
           <UserfriendlyName>Application-controlled / Off</UserfriendlyName>
           <HexValue>0x00000000</HexValue>
         </CustomSettingValue>
@@ -1599,156 +601,104 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
-      <UserfriendlyName>STEREO_MCCOMPAT</UserfriendlyName>
-      <HexSettingID>0x102E048D</HexSettingID>
+      <UserfriendlyName>Prevent Antialiasing (OGL)</UserfriendlyName>
+      <HexSettingID>0x20992431</HexSettingID>
       <Description />
-      <GroupName>8 - Extra</GroupName>
+      <GroupName>3 - Antialiasing</GroupName>
       <SettingValues>
         <CustomSettingValue>
-          <UserfriendlyName>Legacy</UserfriendlyName>
+          <UserfriendlyName>Disable none</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable FBO Enhance</UserfriendlyName>
           <HexValue>0x00000001</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Broadcast</UserfriendlyName>
+          <UserfriendlyName>Disable Replay (SGSSAA)</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+  
+    <CustomSetting>
+      <UserfriendlyName>Antialiasing - Transparency Multisampling - Setting</UserfriendlyName>
+      <HexSettingID>0x0043ED70</HexSettingID>
+      <Description />
+      <GroupName>3 - Antialiasing</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Q - (Default, Mixed mode) uses application detection</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ATOC - (Old mode) uses the good old ATOC computation, 1x shader</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>A4X_TC - (Quality mode) spawns 4 shader copies, averages alpha only (only texcoords are adjusted)</UserfriendlyName>
           <HexValue>0x00000002</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Legacy | Broadcast</UserfriendlyName>
+          <UserfriendlyName>C4X_TC - (Quality mode) spawns 4 shader copies, averages r,g,b, and alpha (only texcoords are adjusted)</UserfriendlyName>
           <HexValue>0x00000003</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Disable SLI</UserfriendlyName>
+          <UserfriendlyName>A3X_TC - (Quality mode) spawns 3 shader copies, averages alpha only (only texcoords are adjusted)</UserfriendlyName>
           <HexValue>0x00000004</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Override bit</UserfriendlyName>
-          <HexValue>0x80000000</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>MCSFRLOADBALANCE</UserfriendlyName>
-      <HexSettingID>0x103C2E03</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Static - each GPU receives a equal amount of pixels to process</UserfriendlyName>
-          <HexValue>0x28384382</HexValue>
+          <UserfriendlyName>C3X_TC - (Quality mode) spawns 3 shader copies, averages r,g,b, and alpha (only texcoords are adjusted)</UserfriendlyName>
+          <HexValue>0x00000005</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Dynamic - moves the split line dynamically to accomodate the load</UserfriendlyName>
-          <HexValue>0x60606064</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>CULL_BEFORE_FETCH</UserfriendlyName>
-      <HexSettingID>0x10510E76</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Dynamic</UserfriendlyName>
+          <UserfriendlyName>A4X_ALL - (Quality mode) spawns 4 shader copies, averages alpha only (all parameters are adjusted)</UserfriendlyName>
           <HexValue>0x00000006</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Always</UserfriendlyName>
+          <UserfriendlyName>C4X_ALL - (Quality mode) spawns 4 shader copies, averages r,g,b, and alpha (all parameters are adjusted)</UserfriendlyName>
           <HexValue>0x00000007</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Never</UserfriendlyName>
+          <UserfriendlyName>A3X_ALL - (Quality mode) spawns 3 shader copies, averages alpha only (all parameters are adjusted)</UserfriendlyName>
           <HexValue>0x00000008</HexValue>
         </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>KEPLER_L1_CACHE_WAR_BUG</UserfriendlyName>
-      <HexSettingID>0x10528AB2</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
         <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
+          <UserfriendlyName>C3X_ALL - (Quality mode) spawns 3 shader copies, averages r,g,b, and alpha (all parameters are adjusted)</UserfriendlyName>
+          <HexValue>0x00000009</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>On</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_ALPHABETA</UserfriendlyName>
-      <HexSettingID>0x106044CE</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Static - The driver always uses Alpha fraction set via PS_ALPHABETA_FRACTION</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
+          <UserfriendlyName>SS2X - Used for internal driver purposes only - spawns 2 shader copies</UserfriendlyName>
+          <HexValue>0x0000000A</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Dynamic_Shader - The driver adjusts a shader unique Alpha fraction via AlphaBeta clocks</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
+          <UserfriendlyName>SS4X - Used for internal driver purposes only - spawns 4 shader copies</UserfriendlyName>
+          <HexValue>0x0000000B</HexValue>
         </CustomSettingValue>
         <CustomSettingValue>
-          <UserfriendlyName>Dynamic_VBIB - The driver adjusts a vb/ib ID unique Alpha fraction via AlphaBeta clocks</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
+          <UserfriendlyName>SS8X - Used for internal driver purposes only - spawns 8 shader copies</UserfriendlyName>
+          <HexValue>0x0000000C</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>TEST - (Test mode) shows shader types in different colors</UserfriendlyName>
+          <HexValue>0x0000000F</HexValue>
         </CustomSettingValue>
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PS_ALPHABETA_FRACTION</UserfriendlyName>
-      <HexSettingID>0x10842563</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Min</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Default - Fixed Alpha fraction to use when PS_ALPHABETA is in static mode</UserfriendlyName>
-          <HexValue>0x0000003F</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Max</UserfriendlyName>
-          <HexValue>0x000000FF</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>PHYSX_APPLICATION</UserfriendlyName>
-      <HexSettingID>0x10E3293A</HexSettingID>
-      <Description />
-      <GroupName>8 - Extra</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Off</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>On</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
+  
+<!-- Group 4 - Texture Filtering --> 
+
     <CustomSetting>
       <UserfriendlyName>Anisotropic filtering (mode + setting)</UserfriendlyName>
       <HexSettingID>0x10F74257</HexSettingID>
       <Description />
       <GroupName>4 - Texture Filtering</GroupName>
       <SettingValues>
-		<CustomSettingValue>
+        <CustomSettingValue>
           <UserfriendlyName>Application-controlled</UserfriendlyName>
           <HexValue>0x00000000</HexValue>
         </CustomSettingValue>
@@ -1791,6 +741,1213 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
+<!-- Group 5 - Common -->
+<!-- Group 7 - Stereo -->  
+<!-- Group 8 - Extra -->
+
+    <CustomSetting>
+      <UserfriendlyName>ASYNC10_ENABLE</UserfriendlyName>
+      <HexSettingID>0x0005F511</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>APP - Enable dual core optimizations unless the application requested to disable them</UserfriendlyName>
+          <HexValue>0x37605835</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>OFF - Disable dual core optimizations</UserfriendlyName>
+          <HexValue>0x53850673</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ON - Enable dual core optimizations</UserfriendlyName>
+          <HexValue>0x42563729</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>ASYNC10_PRESENT_MODE</UserfriendlyName>
+      <HexSettingID>0x0005F512</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Default - DX10 present will be in default mode</UserfriendlyName>
+          <HexValue>0x96184013</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Sync - DX10 present will be sync call</UserfriendlyName>
+          <HexValue>0x53855200</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Async - DX10 present will be async call</UserfriendlyName>
+          <HexValue>0x89624578</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>LARGE_VA</UserfriendlyName>
+      <HexSettingID>0x0007FBB6</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable - Disable large VA</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enable_LargeVA - Enable large VA on all GPUs</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enable_LargeVA_Quadro - Enable large VA on Quadro GPUs</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enable_LargeVA_Quadro_Tesla - Enable large VA on Quadro Tesla GPUs</UserfriendlyName>
+          <HexValue>0x00000003</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>FORCEENABLEDCCAP</UserfriendlyName>
+      <HexSettingID>0x001208CB</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - Force enable deferred context cap</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>STAGING_CACHE_SIZE</UserfriendlyName>
+      <HexSettingID>0x0013FEC2</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Min</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Default</UserfriendlyName>
+          <HexValue>0x00400000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Max</UserfriendlyName>
+          <HexValue>0x01000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>PS_BM_DEFER_DESTROY_FLAGS</UserfriendlyName>
+      <HexSettingID>0x00159046</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Default</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable Global Renaming</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Allow Global Renaming Pitch Only</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable Async Frees</UserfriendlyName>
+          <HexValue>0x00000004</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable Alloc Recycling</UserfriendlyName>
+          <HexValue>0x00000010</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>ASYNC9_PRESENT_MODE</UserfriendlyName>
+      <HexSettingID>0x0015F512</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Sync - All DX9 presents will be synchronous</UserfriendlyName>
+          <HexValue>0x53855200</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Async - All DX9 presents will be asynchronous if AllowFlipBatching is set</UserfriendlyName>
+          <HexValue>0x96184013</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Async full screen - Only full screen DX9 presents will be asynchronous if AllowFlipBatching is set</UserfriendlyName>
+          <HexValue>0x57236402</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Force Async - All DX9 presents will be asynchronous</UserfriendlyName>
+          <HexValue>0x89624578</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Force Async full screen - Only full screen DX9 presents will be asynchronous</UserfriendlyName>
+          <HexValue>0x32469276</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>D3D_STEREO_BLACK_LIST</UserfriendlyName>
+      <HexSettingID>0x00161903</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - Prohibit stereo shim in DX apps</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>DISABLE_Z16</UserfriendlyName>
+      <HexSettingID>0x0017FD6D</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - Replaces all Z16 requests with Z24X8</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>3DSMax Shim Layer Control</UserfriendlyName>
+      <HexSettingID>0x002C74F1</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable - Disable the 3DSMax shim layer</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enable - Enable the 3DSMax shim layer on Quadro and GeForce SMB GPUs</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Enable GEFORCE - Enable the 3DSMax shim layer on GeForce and Quadro (DEVELOP/DEBUG only)</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>PS_ASYNC_SHADER_SCHEDULER_FLAGS</UserfriendlyName>
+      <HexSettingID>0x00313536</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>IGNORE_LOAD_BALANCING - debug: Ignore gpu load, apply always</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>IGNORE_QUOTAS - debug: Ignore quotas</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>IGNORE_GARBAGE_COLLECT_THRESHOLD - debug: Ignore fill status and garbage collect every frame</UserfriendlyName>
+          <HexValue>0x00000004</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_GARBAGE_COLLECTION - debug: Disables garbage collection</UserfriendlyName>
+          <HexValue>0x00000008</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>COMPILE_IMMEDIATELY - debug: stall in the driver thread until the compile result arrives</UserfriendlyName>
+          <HexValue>0x00000100</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>LIMIT_SHADER_CREATION_TO_ONE_THREAD - Limit number of spawned threads to one (rather than the number of cores) for async creations</UserfriendlyName>
+          <HexValue>0x00000200</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>LIMIT_OPTIMIZED_SHADER_RECOMPILE_TO_ONE_THREAD - Limit number of spawned threads to one (rather than the number of cores) for optimized shader recompiles</UserfriendlyName>
+          <HexValue>0x00000400</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_MULTI_APP_THREAD_HEURISTIC - Disable heuristic for detecting multiple app threads compiling shaders</UserfriendlyName>
+          <HexValue>0x00000800</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_OPTIMIZED_SHADER_RECOMPILE - Recompile multiple optimized versions of shaders</UserfriendlyName>
+          <HexValue>0x00001000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_SHADER_CREATION - Compile multiple shaders in parallel at creation</UserfriendlyName>
+          <HexValue>0x00002000</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>ASYNC10_NVAPI_MODE</UserfriendlyName>
+      <HexSettingID>0x005F5A32</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>ALLOW_NONBLOCKING_NVAPI - Generally allow some nvapi calls to not block async device</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ALLOW_NOBLOCKING_SLISTATE - Allow specific non-blocking optimizations for GetCurrentSliState NVAPI</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ALLOW_ALL - Allow all optimizations</UserfriendlyName>
+          <HexValue>0x00000003</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>ASYNC10_OOO_QUERY_LIMIT</UserfriendlyName>
+      <HexSettingID>0x005F5A33</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Default - How many out of order query getData calls are allowed before stalling the Async Device</UserfriendlyName>
+          <HexValue>0x0000000A</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>D3D9_CONTROL_BITS</UserfriendlyName>
+      <HexSettingID>0x0067345E</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 24 for rRegBankSize == 128</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 30 for rRegBankSize == 128</UserfriendlyName>
+          <HexValue>0x00000003</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 40 for rRegBankSize == 128</UserfriendlyName>
+          <HexValue>0x00000005</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 60 for rRegBankSize == 128</UserfriendlyName>
+          <HexValue>0x00000007</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 120 for rRegBankSize == 128</UserfriendlyName>
+          <HexValue>0x00000009</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 128 for rRegBankSize == 128</UserfriendlyName>
+          <HexValue>0x0000000F</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 24 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000010</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 26 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000020</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 30 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000030</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 34 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000040</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 40 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000050</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 48 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000060</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 60 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000070</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 80 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000080</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 120 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x00000090</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Set maxRRegsAllowed = 256 for rRegBankSize == 256</UserfriendlyName>
+          <HexValue>0x000000F0</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable ticks</UserfriendlyName>
+          <HexValue>0x00000100</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable early-Z ticks</UserfriendlyName>
+          <HexValue>0x00000200</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Force 1-bit compression on depth buffers</UserfriendlyName>
+          <HexValue>0x00001000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable dynamic VB promotion</UserfriendlyName>
+          <HexValue>0x00002000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disallow forced vsync (includes adaptive vsync)</UserfriendlyName>
+          <HexValue>0x00004000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disallow the use of the CPU Visible segement</UserfriendlyName>
+          <HexValue>0x00008000</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>PS_SURFACE_PLACEMENT_HIGHEST_PRIORITY</UserfriendlyName>
+      <HexSettingID>0x006BDD49</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>RTs/ZBs use high priority (default)</UserfriendlyName>
+          <HexValue>0x187F7082</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>RTs/ZBs use maximum priority</UserfriendlyName>
+          <HexValue>0x83B7BC1A</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>RTs/ZBs use maximum priority on mixed-bus GPUs (192-bit 2 GB, etc.)</UserfriendlyName>
+          <HexValue>0xFC17F610</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>KEPLER_CLEAR_SM_HALFCTL_CTRL_SCTL_CYA_6</UserfriendlyName>
+      <HexSettingID>0x007033AB</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - Clear</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>FERMI_GF110_VOLTAGE_DROP_WAR</UserfriendlyName>
+      <HexSettingID>0x00837AAF</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>KEPLER_APPLY_ALD_WAR</UserfriendlyName>
+      <HexSettingID>0x00846411</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>COLORCOMPRESSENABLE</UserfriendlyName>
+      <HexSettingID>0x0085F725</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x99388100</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x25558997</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>READ_ONLY_DSV_EARLYZ_HAZARD_WAR_ENABLE</UserfriendlyName>
+      <HexSettingID>0x008F7215</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - Track read-only DSVs as last having been bound to PS to catch WAR hazards between early-z and PS</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>PS_SURFACE_PLACEMENT_ALLOW</UserfriendlyName>
+      <HexSettingID>0x0090F680</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>VB_FORCE_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>VB_FORCE_VIDMEM</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>VB_IB_FORCE_CPUVISIBLE</UserfriendlyName>
+          <HexValue>0x00000004</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>VB_IB_FORCE_LOCKABLE_CPUVISIBLE</UserfriendlyName>
+          <HexValue>0x00000008</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>VB_STATIC_PREFERS_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00000010</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>VB_STATIC_PREFERS_VIDMEM</UserfriendlyName>
+          <HexValue>0x00000020</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>VB_WRITEONLY_PREFERS_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00000040</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>VB_WRITEONLY_PREFERS_VIDMEM</UserfriendlyName>
+          <HexValue>0x00000080</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>IB_FORCE_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00000100</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>IB_FORCE_VIDMEM</UserfriendlyName>
+          <HexValue>0x00000200</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>IB_PREFERS_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00000400</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>IB_PREFERS_VIDMEM</UserfriendlyName>
+          <HexValue>0x00000800</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>TX_FORCE_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00001000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>TX_FORCE_VIDMEM</UserfriendlyName>
+          <HexValue>0x00002000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>TX_PREFERS_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00004000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>TX_PREFERS_VIDMEM</UserfriendlyName>
+          <HexValue>0x00008000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>RT_FORCE_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00010000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>RT_FORCE_VIDMEM</UserfriendlyName>
+          <HexValue>0x00020000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>RT_PREFERS_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00040000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>RT_PREFERS_VIDMEM</UserfriendlyName>
+          <HexValue>0x00080000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Z_FORCE_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00100000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Z_FORCE_VIDMEM</UserfriendlyName>
+          <HexValue>0x00200000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Z_PREFERS_HOSTMEM</UserfriendlyName>
+          <HexValue>0x00400000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Z_PREFERS_VIDMEM</UserfriendlyName>
+          <HexValue>0x00800000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Z_PREFERS_BOTH</UserfriendlyName>
+          <HexValue>0x00C00000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>PB_FORCE_HOSTMEM</UserfriendlyName>
+          <HexValue>0x01000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>PB_FORCE_VIDMEM</UserfriendlyName>
+          <HexValue>0x02000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>SP_FORCE_INCLUDE_Z</UserfriendlyName>
+          <HexValue>0x04000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>SP_FORCE_ALL_HEAPS</UserfriendlyName>
+          <HexValue>0x08000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>SP_USE_NONE</UserfriendlyName>
+          <HexValue>0x10000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>SP_USE_2V</UserfriendlyName>
+          <HexValue>0x20000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>SP_USE_2H</UserfriendlyName>
+          <HexValue>0x40000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>SP_USE_4</UserfriendlyName>
+          <HexValue>0x80000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ALL_FORCE_HOSTMEM</UserfriendlyName>
+          <HexValue>0x01111111</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ALL_FORCE_VIDMEM</UserfriendlyName>
+          <HexValue>0x02222222</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>ASYNC9_ENABLE</UserfriendlyName>
+      <HexSettingID>0x0092F4DE</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>App - Enable AsyncDevice except in configs that do not work (some SLI, Optimus) or if the application requested to disable them</UserfriendlyName>
+          <HexValue>0x37605835</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>When safe - Enable AsyncDevice except in configs that do not work (some SLI, Optimus)</UserfriendlyName>
+          <HexValue>0x37605846</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Off - Disable AsyncDevice and MS dual core optimization</UserfriendlyName>
+          <HexValue>0x53850673</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - Enable AsyncDevice ignoring safety or application requests</UserfriendlyName>
+          <HexValue>0x42563729</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On if Quadro - Enable AsyncDevice if a Quadro or GeForce SMB GPU is being used, otherwise disable AsyncDevice and MS dual core optimization</UserfriendlyName>
+          <HexValue>0x42563730</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Microsoft - Disable AsyncDevice but allow MS dual core optimization</UserfriendlyName>
+          <HexValue>0x75328097</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>PS_VB_PROMOTION_FLAGS</UserfriendlyName>
+      <HexSettingID>0x009E7462</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_DYNAMIC_PROMOTION - Don't promote VBs that are locked even if drawn from extensively</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_STATIC_PROMOTION Don't promote VBs that are never even locked</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>VALIDATE_PARAMS</UserfriendlyName>
+      <HexSettingID>0x00A9D3C5</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Nothing - Do not validate any input</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>COPYREGION - Validate input on CopyRegion functions</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>INTERPRET_NEGATIVE - Validate input considering negative input even if the parameter type is unsigned</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>VALIDATE_ALL - Validate all input</UserfriendlyName>
+          <HexValue>0x00000003</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>APP_COMPAT_SHIM</UserfriendlyName>
+      <HexSettingID>0x00B82343</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Disabled</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DX11_FORCE_DDI_CRITICAL_SECTION - Force a critical section on all non-reentrant DX11 DDI</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DX11_FORCE_DDI_CRITICAL_SECTION_FOR_STEREO - Force a critical section on all non-reentrant DX11 DDI if stereo shim is enabled</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Mask</UserfriendlyName>
+          <HexValue>0x00000003</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>SHADERMAXREGALLOWED</UserfriendlyName>
+      <HexSettingID>0x00BC6199</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Min</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Max - Specifies max register allowed when compiling/optimizing a shader</UserfriendlyName>
+          <HexValue>0x00000400</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>MAX_PENDING_CMD_BUFFERS</UserfriendlyName>
+      <HexSettingID>0x00C63A79</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off - Limit max number of pending command buffers (per context) in software queue. If key is set zero it will be ignored</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>1</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>2</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>SYSMEMCACHEDCOPYBEHAVIOR</UserfriendlyName>
+      <HexSettingID>0x00DB3853</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Disallow - Disable sysmem caching for textures</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ALLOW_FOR_TEXTURES_WITHOUT_SUBRESOURCES - Allow for textures without subresources only (default)</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ALLOW_FOR_TEXTURES_WITH_SUBRESOURCES - Allow for textures with mips</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>MCLINKINSTANCED_LIMIT</UserfriendlyName>
+      <HexSettingID>0x00DB3857</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Default - Threshold in megabytes for using of RT/ZB allocations as LinkInstanced (SLI DX9/10)</UserfriendlyName>
+          <HexValue>0x00000064</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>MCFORCEHOSTSTAGINGBUFFERSIZE</UserfriendlyName>
+      <HexSettingID>0x00DB3858</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Default - size of host staging buffer, mostly for early push</UserfriendlyName>
+          <HexValue>0x00040000</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>PS_REDUCTION_LOAD_BALANCED</UserfriendlyName>
+      <HexSettingID>0x00DB834A</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - Reduction tracker load balancing</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>BM_OFFER_RECLAIM (DX1x)</UserfriendlyName>
+      <HexSettingID>0x00DC68B0</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_OFFER_SMALL_BLOCKS - Disable offering of suballocated Blocks</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_INTERNAL_OFFER_RECLAIM - Disable internal Offer/Reclaim</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_ALL_OFFER_RECLAIM - Diable all Offer/Reclaim</UserfriendlyName>
+          <HexValue>0x00000004</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>PS_DX10_SURFACE_PLACEMENT_HIGHEST_PRIORITY (DX1x)</UserfriendlyName>
+      <HexSettingID>0x00EA83C5</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>RTs/ZBs use high priority (default)</UserfriendlyName>
+          <HexValue>0x187F7082</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>RTs/ZBs use maximum priority</UserfriendlyName>
+          <HexValue>0x83B7BC1A</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>RTs/ZBs use maximum priority on mixed-bus GPUs (192-bit 2 GB, etc.)</UserfriendlyName>
+          <HexValue>0xFC17F610</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>WRITE_TO_HOST_STAGING_BUFFER_SIZE</UserfriendlyName>
+      <HexSettingID>0x00F63A49</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Default - Set size of write staging buffer. If key is set to zero it will be ignored</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>AVOID_HOST_REMAPPERS</UserfriendlyName>
+      <HexSettingID>0x00F63A50</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On - Try to avoid host remappers. If application is locking BL RT in vidmem, demote it to pitch so that lock won't require remapper.</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>SLIMOSAIC_CONTROL</UserfriendlyName>
+      <HexSettingID>0x00F713BC</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>ALLOW_ALL - Allow all performance strategies</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_TWOD - Disable TwoD engine local transfers optimization</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ENABLE_WINDOWED_AFR - Enable AFR support for windowed applications</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_CAN_VECTORIZE_TRACKER - Disable CanVectorizeTracker</UserfriendlyName>
+          <HexValue>0x00000004</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_CE_TRANSFER_2WAY - Disable CE transfer on 2 way systems</UserfriendlyName>
+          <HexValue>0x00000010</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_CE_TRANSFER_3WAY - Disable CE transfer on 3 way systems</UserfriendlyName>
+          <HexValue>0x00000020</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>DISABLE_CE_TRANSFER_4WAY - Disable CE transfer on 4 way systems</UserfriendlyName>
+          <HexValue>0x00000040</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>UNICAST_CE_TRANSFER_2WAY - Use unicast CE transfer on 2 way systems</UserfriendlyName>
+          <HexValue>0x00000100</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>UNICAST_CE_TRANSFER_3WAY - Use unicast CE transfer on 3 way systems</UserfriendlyName>
+          <HexValue>0x00000200</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>UNICAST_CE_TRANSFER_4WAY - Use unicast CE transfer on 4 way systems</UserfriendlyName>
+          <HexValue>0x00000400</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>FORCE_BAR1_WAR - Always request aliasing for DX9 primaries</UserfriendlyName>
+          <HexValue>0x80000000</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>FERMI_FORCE_1X_TEX</UserfriendlyName>
+      <HexSettingID>0x00F865E3</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Disabled - Allow 2X tex where available</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ENABLED_3D - Force 1X tex on 2x_TEX parts for 3D channels</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>ENABLED_COMPUTE - Force 1X tex on 2x_TEX parts for COMPUTE channels</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>MAX_RENAMING_MEMORY</UserfriendlyName>
+      <HexSettingID>0x00FE8CC0</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Limit max amount of memory used for renaming on XP</UserfriendlyName>
+          <HexValue>0x08000000</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+
+    <CustomSetting>
+      <UserfriendlyName>STEREO_MCCOMPAT</UserfriendlyName>
+      <HexSettingID>0x102E048D</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Legacy</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Broadcast</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Legacy | Broadcast</UserfriendlyName>
+          <HexValue>0x00000003</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Disable SLI</UserfriendlyName>
+          <HexValue>0x00000004</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Override bit</UserfriendlyName>
+          <HexValue>0x80000000</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>MCSFRLOADBALANCE</UserfriendlyName>
+      <HexSettingID>0x103C2E03</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Static - each GPU receives a equal amount of pixels to process</UserfriendlyName>
+          <HexValue>0x28384382</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Dynamic - moves the split line dynamically to accomodate the load</UserfriendlyName>
+          <HexValue>0x60606064</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>CULL_BEFORE_FETCH</UserfriendlyName>
+      <HexSettingID>0x10510E76</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Dynamic</UserfriendlyName>
+          <HexValue>0x00000006</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Always</UserfriendlyName>
+          <HexValue>0x00000007</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Never</UserfriendlyName>
+          <HexValue>0x00000008</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>KEPLER_L1_CACHE_WAR_BUG</UserfriendlyName>
+      <HexSettingID>0x10528AB2</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>PS_ALPHABETA</UserfriendlyName>
+      <HexSettingID>0x106044CE</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Static - The driver always uses Alpha fraction set via PS_ALPHABETA_FRACTION</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Dynamic_Shader - The driver adjusts a shader unique Alpha fraction via AlphaBeta clocks</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Dynamic_VBIB - The driver adjusts a vb/ib ID unique Alpha fraction via AlphaBeta clocks</UserfriendlyName>
+          <HexValue>0x00000002</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>PS_ALPHABETA_FRACTION</UserfriendlyName>
+      <HexSettingID>0x10842563</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Min</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Default - Fixed Alpha fraction to use when PS_ALPHABETA is in static mode</UserfriendlyName>
+          <HexValue>0x0000003F</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>Max</UserfriendlyName>
+          <HexValue>0x000000FF</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+    
+    <CustomSetting>
+      <UserfriendlyName>PHYSX_APPLICATION</UserfriendlyName>
+      <HexSettingID>0x10E3293A</HexSettingID>
+      <Description />
+      <GroupName>8 - Extra</GroupName>
+      <SettingValues>
+        <CustomSettingValue>
+          <UserfriendlyName>Off</UserfriendlyName>
+          <HexValue>0x00000000</HexValue>
+        </CustomSettingValue>
+        <CustomSettingValue>
+          <UserfriendlyName>On</UserfriendlyName>
+          <HexValue>0x00000001</HexValue>
+        </CustomSettingValue>
+      </SettingValues>
+      <SettingMasks />
+    </CustomSetting>
+        
     <CustomSetting>
       <UserfriendlyName>ENABLE_CE_MS_HYBRID</UserfriendlyName>
       <HexSettingID>0x10FADC84</HexSettingID>
@@ -1808,6 +1965,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>WKS_FEATURE_SUPPORT_CONTROL</UserfriendlyName>
       <HexSettingID>0x11D9DC84</HexSettingID>
@@ -1845,6 +2003,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SRV_APP_NON_FSAA_SINGLEBUFFER</UserfriendlyName>
       <HexSettingID>0x2003FF01</HexSettingID>
@@ -1862,6 +2021,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_VBUM_VIRTUAL_ADDRESS (XP only)</UserfriendlyName>
       <HexSettingID>0x2007B25E</HexSettingID>
@@ -1879,6 +2039,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SLI_WINDOWED_AFR</UserfriendlyName>
       <HexSettingID>0x2014CC70</HexSettingID>
@@ -1900,6 +2061,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SHADER_WARNINGS_AS_ERRORS</UserfriendlyName>
       <HexSettingID>0x201808AC</HexSettingID>
@@ -1933,6 +2095,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_DST_REDUCE</UserfriendlyName>
       <HexSettingID>0x201C3B92</HexSettingID>
@@ -1950,6 +2113,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_PFD_ADJUST</UserfriendlyName>
       <HexSettingID>0x201FEBD1</HexSettingID>
@@ -1975,6 +2139,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_RENDER_QUALITY_FLAGS</UserfriendlyName>
       <HexSettingID>0x20219263</HexSettingID>
@@ -2004,6 +2169,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_LDDM_MT_VSYNC_WAIT_METHOD</UserfriendlyName>
       <HexSettingID>0x2027F0A8</HexSettingID>
@@ -2029,6 +2195,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_FORCE_FLUSH_TEXTURES</UserfriendlyName>
       <HexSettingID>0x2027F1A8</HexSettingID>
@@ -2046,6 +2213,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_THREAD_OPTIMIZATION_GEFORCE</UserfriendlyName>
       <HexSettingID>0x202DC432</HexSettingID>
@@ -2083,6 +2251,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_EXPORT_OPENGL_1_2</UserfriendlyName>
       <HexSettingID>0x202DE437</HexSettingID>
@@ -2100,6 +2269,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_DIRECT_PUSHBUFFER</UserfriendlyName>
       <HexSettingID>0x202FD652</HexSettingID>
@@ -2117,6 +2287,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_RUNTIME_VERTEX_ATTRIB_SOURCING</UserfriendlyName>
       <HexSettingID>0x202FE114</HexSettingID>
@@ -2134,6 +2305,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_YIELD_AFTER_SWAP</UserfriendlyName>
       <HexSettingID>0x20320CE4</HexSettingID>
@@ -2151,6 +2323,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_DX_PRESENT_DEBUG</UserfriendlyName>
       <HexSettingID>0x20324987</HexSettingID>
@@ -2184,6 +2357,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_FORCE_NX6PLUSMODE</UserfriendlyName>
       <HexSettingID>0x20334278</HexSettingID>
@@ -2205,6 +2379,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_NO_SW_FALLBACK</UserfriendlyName>
       <HexSettingID>0x20335BCA</HexSettingID>
@@ -2222,6 +2397,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_HIDE_GL3_ON_G80_PLUS</UserfriendlyName>
       <HexSettingID>0x20359278</HexSettingID>
@@ -2239,6 +2415,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APPLICATION_KEY</UserfriendlyName>
       <HexSettingID>0x203691BB</HexSettingID>
@@ -2300,6 +2477,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_PERF_STRAT_LDDM_ALLOCATIONTABLE_SIZE</UserfriendlyName>
       <HexSettingID>0x203714A4</HexSettingID>
@@ -2313,6 +2491,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_PULL_MEM_BUFFER_SHARED_THRESHOLD</UserfriendlyName>
       <HexSettingID>0x20378242</HexSettingID>
@@ -2326,6 +2505,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_COPYPIXEL_FRONTBUFFER_FLUSH</UserfriendlyName>
       <HexSettingID>0x2037F53A</HexSettingID>
@@ -2343,6 +2523,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_OVERLAY_MERGEBLIT_TIMER_MS</UserfriendlyName>
       <HexSettingID>0x203A0751</HexSettingID>
@@ -2360,6 +2541,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_PROE_2000I2</UserfriendlyName>
       <HexSettingID>0x203C136F</HexSettingID>
@@ -2377,6 +2559,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_GLS_COMPATIBILITY</UserfriendlyName>
       <HexSettingID>0x203D3FC9</HexSettingID>
@@ -2406,6 +2589,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_FORCE_FP_DEFAULT_PRECISION</UserfriendlyName>
       <HexSettingID>0x2040B347</HexSettingID>
@@ -2423,6 +2607,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_PROMOTE_SHADERS_FROM_140_TO_150</UserfriendlyName>
       <HexSettingID>0x20441369</HexSettingID>
@@ -2440,6 +2625,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_CHECK_FOR_IDENTITY_MATRIX_MATH</UserfriendlyName>
       <HexSettingID>0x2045959A</HexSettingID>
@@ -2457,6 +2643,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_MULTIMON_BUFFER</UserfriendlyName>
       <HexSettingID>0x204B6CBF</HexSettingID>
@@ -2482,6 +2669,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_TEXCLAMP</UserfriendlyName>
       <HexSettingID>0x204CFF7B</HexSettingID>
@@ -2503,6 +2691,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SRV_APP_NO_PFD_SUPPORT_GDI</UserfriendlyName>
       <HexSettingID>0x20568533</HexSettingID>
@@ -2520,6 +2709,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SRV_APP_MEMORY_MAP_NOT_REQUIRED</UserfriendlyName>
       <HexSettingID>0x20570FC6</HexSettingID>
@@ -2537,6 +2727,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_CLAW</UserfriendlyName>
       <HexSettingID>0x205F7E3B</HexSettingID>
@@ -2554,6 +2745,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SRV_APP_FORCE_OGL_GEFORCE</UserfriendlyName>
       <HexSettingID>0x205FB5AB</HexSettingID>
@@ -2571,6 +2763,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_PULL_MEM_DEFAULT_BUFFER_SIZE</UserfriendlyName>
       <HexSettingID>0x206194D6</HexSettingID>
@@ -2584,6 +2777,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_SOFTIMAGE</UserfriendlyName>
       <HexSettingID>0x20630BA7</HexSettingID>
@@ -2601,6 +2795,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_LAZY_VBUM_VBOS</UserfriendlyName>
       <HexSettingID>0x20696FC3</HexSettingID>
@@ -2618,6 +2813,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_HIDE_FLOAT_COLOR_IF_NO_TWO_SIDED</UserfriendlyName>
       <HexSettingID>0x206C7691</HexSettingID>
@@ -2635,6 +2831,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_PROMOTE_SHADERS_FROM_120_TO_130</UserfriendlyName>
       <HexSettingID>0x206BD8C7</HexSettingID>
@@ -2652,6 +2849,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_QUADRO_WORKER_THREAD_CREATION</UserfriendlyName>
       <HexSettingID>0x20748292</HexSettingID>
@@ -2669,6 +2867,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_TREAT_DEPTH24_AS_DEPTH32</UserfriendlyName>
       <HexSettingID>0x20748F92</HexSettingID>
@@ -2686,6 +2885,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_FILTER_PIXELFORMAT</UserfriendlyName>
       <HexSettingID>0x207A3A90</HexSettingID>
@@ -2703,6 +2903,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_THREAD_OPTIMIZATION</UserfriendlyName>
       <HexSettingID>0x207A8C92</HexSettingID>
@@ -2740,6 +2941,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_CENTROID_SAMPLE</UserfriendlyName>
       <HexSettingID>0x207C128B</HexSettingID>
@@ -2757,6 +2959,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_USE_DX10_SAT</UserfriendlyName>
       <HexSettingID>0x207DF8D1</HexSettingID>
@@ -2774,6 +2977,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_IGNORE_SWAP_HINTS</UserfriendlyName>
       <HexSettingID>0x2084A0A0</HexSettingID>
@@ -2791,6 +2995,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_NO_GENERIC_ARRAYS_IN_FF</UserfriendlyName>
       <HexSettingID>0x20852142</HexSettingID>
@@ -2808,6 +3013,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SLI_DL_CONTROL</UserfriendlyName>
       <HexSettingID>0x20873922</HexSettingID>
@@ -2857,6 +3063,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SRV_APP_FORCE_SECONDARY_ADAPTER</UserfriendlyName>
       <HexSettingID>0x208D973F</HexSettingID>
@@ -2874,6 +3081,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_OCGCONTROL_DIRECT_NVIR</UserfriendlyName>
       <HexSettingID>0x208F3F2D</HexSettingID>
@@ -2895,6 +3103,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_OPTIMIZED_IMMEDIATE_MODE</UserfriendlyName>
       <HexSettingID>0x2096FD59</HexSettingID>
@@ -2912,6 +3121,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_MULTIGPU_SUPPORT_BITS</UserfriendlyName>
       <HexSettingID>0x209746C1</HexSettingID>
@@ -2949,27 +3159,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>Prevent Antialiasing (OGL)</UserfriendlyName>
-      <HexSettingID>0x20992431</HexSettingID>
-      <Description />
-      <GroupName>3 - Antialiasing</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable none</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable FBO Enhance</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>Disable Replay (SGSSAA)</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_OVERRIDE_2XTEX</UserfriendlyName>
       <HexSettingID>0x209A0EE9</HexSettingID>
@@ -2987,6 +3177,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_THREAD_CONTROL_2</UserfriendlyName>
       <HexSettingID>0x209FD306</HexSettingID>
@@ -3080,6 +3271,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SET_REDUCE_COLOR_THRESHOLDS_UNORM8</UserfriendlyName>
       <HexSettingID>0x20A2DE5F</HexSettingID>
@@ -3093,6 +3285,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_DISABLE_WORKSTATION_OPTIMIZATIONS</UserfriendlyName>
       <HexSettingID>0x20A6EEBC</HexSettingID>
@@ -3110,6 +3303,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SRV_APP_NOZ16STENCIL</UserfriendlyName>
       <HexSettingID>0x20AF671D</HexSettingID>
@@ -3127,6 +3321,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_USE_LOOP_ENHANCE</UserfriendlyName>
       <HexSettingID>0x20AF9927</HexSettingID>
@@ -3144,6 +3339,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_FORCE_GAMMA_DOWNSAMPLE</UserfriendlyName>
       <HexSettingID>0x20B36B5C</HexSettingID>
@@ -3169,6 +3365,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_CONSTANT_OPTIMIZE</UserfriendlyName>
       <HexSettingID>0x20B3EDD5</HexSettingID>
@@ -3186,6 +3383,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_SET_WGL_COMPATIBILITY_HWND_THREAD_MISMATCH</UserfriendlyName>
       <HexSettingID>0x20B812C1</HexSettingID>
@@ -3203,6 +3401,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_USE_SDDR</UserfriendlyName>
       <HexSettingID>0x20BAC7FA</HexSettingID>
@@ -3220,6 +3419,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_CLAW_THREADS</UserfriendlyName>
       <HexSettingID>0x20BD755A</HexSettingID>
@@ -3237,6 +3437,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_CLAW_STATISTICS</UserfriendlyName>
       <HexSettingID>0x20BD755B</HexSettingID>
@@ -3254,6 +3455,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_CLAW_OPTIMIZE</UserfriendlyName>
       <HexSettingID>0x20BD755C</HexSettingID>
@@ -3271,6 +3473,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_MAXIMIZE_TEXTURE</UserfriendlyName>
       <HexSettingID>0x20BE92CB</HexSettingID>
@@ -3288,6 +3491,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_NO_TEX_RGBA4_TO_RGBA8_MAPPING</UserfriendlyName>
       <HexSettingID>0x20C42A03</HexSettingID>
@@ -3305,6 +3509,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_TXL_LOD_WAR</UserfriendlyName>
       <HexSettingID>0x20C618F9</HexSettingID>
@@ -3322,6 +3527,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_AVOID_VALIDATION_ON_POP_MATRIX_WITHOUT_CHANGE</UserfriendlyName>
       <HexSettingID>0x20CBFFC4</HexSettingID>
@@ -3339,6 +3545,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_VID_HEAP_REUSE_RATIO</UserfriendlyName>
       <HexSettingID>0x20D0DB0D</HexSettingID>
@@ -3352,6 +3559,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_CONSUMER_API_STEREO_MODE</UserfriendlyName>
       <HexSettingID>0x20D324C5</HexSettingID>
@@ -3397,6 +3605,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_VPWW_ALLOW_LATE_ALLOCED</UserfriendlyName>
       <HexSettingID>0x20D377DC</HexSettingID>
@@ -3414,6 +3623,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_PERF_STRAT_LDDM_CMDBUFFER_SIZE</UserfriendlyName>
       <HexSettingID>0x20D38906</HexSettingID>
@@ -3427,6 +3637,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_SHADER_ASSUMES_0</UserfriendlyName>
       <HexSettingID>0x20D489F4</HexSettingID>
@@ -3444,6 +3655,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_VIDMEM_PUSHBUFFER</UserfriendlyName>
       <HexSettingID>0x20D59EDA</HexSettingID>
@@ -3461,6 +3673,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_MULTISAMPLE_COMPATIBILITY</UserfriendlyName>
       <HexSettingID>0x20D5FDC4</HexSettingID>
@@ -3482,6 +3695,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SKIP_TEXTURE_HOST_COPIES</UserfriendlyName>
       <HexSettingID>0x20D6CE24</HexSettingID>
@@ -3503,6 +3717,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_DLIST_SEGMENTING</UserfriendlyName>
       <HexSettingID>0x20E5C972</HexSettingID>
@@ -3520,6 +3735,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_PSTATE_BOOST_AT_CLEAR</UserfriendlyName>
       <HexSettingID>0x20E802AF</HexSettingID>
@@ -3537,6 +3753,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_PERF_STRAT_LDDM_PATCHLOCATIONTABLE_SIZE</UserfriendlyName>
       <HexSettingID>0x20EA260C</HexSettingID>
@@ -3550,6 +3767,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_SUPPORTBITS2</UserfriendlyName>
       <HexSettingID>0x20EBD7B8</HexSettingID>
@@ -3647,6 +3865,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_TEARING_FREE_SWAP_PRESENT</UserfriendlyName>
       <HexSettingID>0x20EE02B2</HexSettingID>
@@ -3684,6 +3903,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_CONFORMANT_INCOMPLETE_TEXTURES</UserfriendlyName>
       <HexSettingID>0x20F107CC</HexSettingID>
@@ -3701,6 +3921,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_SYSMEM_TEXTURE_PROMOTION</UserfriendlyName>
       <HexSettingID>0x20F2E572</HexSettingID>
@@ -3718,6 +3939,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_APP_BROKEN_NV3X_DEMOS</UserfriendlyName>
       <HexSettingID>0x20F49AE8</HexSettingID>
@@ -3735,6 +3957,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>OGL_DISPATCH_CONTROL</UserfriendlyName>
       <HexSettingID>0x20FBBC2B</HexSettingID>
@@ -3752,6 +3975,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_LASERSIGHT_DX10</UserfriendlyName>
       <HexSettingID>0x7031A2E7</HexSettingID>
@@ -3761,6 +3985,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_STEREOCUTOFFDEPTHNEAR_DX10</UserfriendlyName>
       <HexSettingID>0x704EF483</HexSettingID>
@@ -3770,6 +3995,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_STEREOCUTOFF_DX10</UserfriendlyName>
       <HexSettingID>0x704FCF5C</HexSettingID>
@@ -3779,6 +4005,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_STEREOCUTOFF_DX11</UserfriendlyName>
       <HexSettingID>0x7053569A</HexSettingID>
@@ -3788,6 +4015,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_STEREOCONVERGENCE_DX10</UserfriendlyName>
       <HexSettingID>0x7077BACE</HexSettingID>
@@ -3797,6 +4025,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_STEREOCONVERGENCE_DX11</UserfriendlyName>
       <HexSettingID>0x7084807E</HexSettingID>
@@ -3806,6 +4035,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_STEREOTEXTUREENABLE_DX11</UserfriendlyName>
       <HexSettingID>0x70C0125E</HexSettingID>
@@ -3815,6 +4045,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_STEREOTEXTUREENABLE_DX10</UserfriendlyName>
       <HexSettingID>0x70E1518C</HexSettingID>
@@ -3824,6 +4055,7 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
+    
     <CustomSetting>
       <UserfriendlyName>STEREO_FRUSTUMADJUSTMODE_DX10</UserfriendlyName>
       <HexSettingID>0x70ED1DA7</HexSettingID>
@@ -3833,70 +4065,6 @@
       </SettingValues>
       <SettingMasks />
     </CustomSetting>
-    <CustomSetting>
-      <UserfriendlyName>Antialiasing - Transparency Multisampling - Setting</UserfriendlyName>
-      <HexSettingID>0x0043ED70</HexSettingID>
-      <Description />
-      <GroupName>3 - Antialiasing</GroupName>
-      <SettingValues>
-        <CustomSettingValue>
-          <UserfriendlyName>Q - (Default, Mixed mode) uses application detection</UserfriendlyName>
-          <HexValue>0x00000000</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>ATOC - (Old mode) uses the good old ATOC computation, 1x shader</UserfriendlyName>
-          <HexValue>0x00000001</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>A4X_TC - (Quality mode) spawns 4 shader copies, averages alpha only (only texcoords are adjusted)</UserfriendlyName>
-          <HexValue>0x00000002</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>C4X_TC - (Quality mode) spawns 4 shader copies, averages r,g,b, and alpha (only texcoords are adjusted)</UserfriendlyName>
-          <HexValue>0x00000003</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>A3X_TC - (Quality mode) spawns 3 shader copies, averages alpha only (only texcoords are adjusted)</UserfriendlyName>
-          <HexValue>0x00000004</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>C3X_TC - (Quality mode) spawns 3 shader copies, averages r,g,b, and alpha (only texcoords are adjusted)</UserfriendlyName>
-          <HexValue>0x00000005</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>A4X_ALL - (Quality mode) spawns 4 shader copies, averages alpha only (all parameters are adjusted)</UserfriendlyName>
-          <HexValue>0x00000006</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>C4X_ALL - (Quality mode) spawns 4 shader copies, averages r,g,b, and alpha (all parameters are adjusted)</UserfriendlyName>
-          <HexValue>0x00000007</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>A3X_ALL - (Quality mode) spawns 3 shader copies, averages alpha only (all parameters are adjusted)</UserfriendlyName>
-          <HexValue>0x00000008</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>C3X_ALL - (Quality mode) spawns 3 shader copies, averages r,g,b, and alpha (all parameters are adjusted)</UserfriendlyName>
-          <HexValue>0x00000009</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SS2X - Used for internal driver purposes only - spawns 2 shader copies</UserfriendlyName>
-          <HexValue>0x0000000A</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SS4X - Used for internal driver purposes only - spawns 4 shader copies</UserfriendlyName>
-          <HexValue>0x0000000B</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>SS8X - Used for internal driver purposes only - spawns 8 shader copies</UserfriendlyName>
-          <HexValue>0x0000000C</HexValue>
-        </CustomSettingValue>
-        <CustomSettingValue>
-          <UserfriendlyName>TEST - (Test mode) shows shader types in different colors</UserfriendlyName>
-          <HexValue>0x0000000F</HexValue>
-        </CustomSettingValue>
-      </SettingValues>
-      <SettingMasks />
-    </CustomSetting>
+    
   </Settings>
 </CustomSettingNames>
